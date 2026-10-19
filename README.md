@@ -69,7 +69,6 @@ Dataset → Preprocessing → Split → Outlier Handling → Transformasi → Re
 ## Struktur Folder
 
 ```
-.
 ├── README.md
 ├── .gitignore
 ├── Dataset/
