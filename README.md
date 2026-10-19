@@ -5,7 +5,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?logo=streamlit&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Proyek ini membandingkan tiga algoritma klasifikasi **Naïve Bayes**, **SVM**, dan **Decision Tree** untuk memprediksi apakah seorang karyawan akan berhenti kerja (*attrition*) atau tidak. Dataset yang digunakan adalah IBM HR Analytics Employee Attrition & Performance, merupakan kelanjutan dari proyek UTS sebelumnya ([ml-hr-attrition-classification](https://github.com/Zelviarani16/ml-hr-attrition-classification)) dengan tambahan dua algoritma baru, tiga skenario resampling, dan aplikasi UI interaktif berbasis Streamlit menggunakan model terbaik.
+Proyek ini membandingkan tiga algoritma klasifikasi **Naïve Bayes**, **SVM**, dan **Decision Tree** untuk memprediksi apakah seorang karyawan akan berhenti kerja (*attrition*) atau tidak. Dataset yang digunakan adalah IBM HR Analytics Employee Attrition & Performance, merupakan kelanjutan dari proyek sebelumnya ([ml-hr-attrition-classification](https://github.com/Zelviarani16/ml-hr-attrition-classification)) dengan tambahan dua algoritma baru, tiga skenario resampling, dan aplikasi UI interaktif berbasis Streamlit menggunakan model terbaik.
 
 ---
 
