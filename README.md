@@ -5,7 +5,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?logo=streamlit&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Proyek ini membandingkan tiga algoritma klasifikasi — **Naïve Bayes**, **SVM**, dan **Decision Tree** — untuk memprediksi apakah seorang karyawan akan berhenti kerja (*attrition*) atau tidak. Dataset yang digunakan adalah IBM HR Analytics Employee Attrition & Performance, merupakan kelanjutan dari proyek UTS sebelumnya ([ml-hr-attrition-classification](https://github.com/Zelviarani16/ml-hr-attrition-classification)) dengan tambahan dua algoritma baru, tiga skenario resampling, dan aplikasi UI interaktif berbasis Streamlit menggunakan model terbaik.
+Proyek ini membandingkan tiga algoritma klasifikasi **Naïve Bayes**, **SVM**, dan **Decision Tree** untuk memprediksi apakah seorang karyawan akan berhenti kerja (*attrition*) atau tidak. Dataset yang digunakan adalah IBM HR Analytics Employee Attrition & Performance, merupakan kelanjutan dari proyek UTS sebelumnya ([ml-hr-attrition-classification](https://github.com/Zelviarani16/ml-hr-attrition-classification)) dengan tambahan dua algoritma baru, tiga skenario resampling, dan aplikasi UI interaktif berbasis Streamlit menggunakan model terbaik.
 
 ---
 
@@ -36,8 +36,6 @@ Dataset → Preprocessing → Split → Outlier Handling → Transformasi → Re
 | **7. Training** | `GaussianNB`, `SVC` (kernel RBF), `DecisionTreeClassifier` (`max_depth=5`) |
 | **8. Evaluasi** | Confusion matrix, akurasi, presisi, recall, F1-Score (kelas positif = `Yes`) |
 | **9. Pemilihan** | Model dengan akurasi tertinggi (SVM) dipakai pada aplikasi UI |
-
-> Output terminal diberi label bernomor `[3.1]` s.d. `[3.11]` yang sesuai dengan urutan laporan.
 
 ---
 
@@ -77,7 +75,7 @@ Dataset → Preprocessing → Split → Outlier Handling → Transformasi → Re
 ├── Dataset/
 │   └── IBM_HR_Attrition.xlsx
 ├── File Python/
-│   ├── tugas_klasifikasi.py   # pelatihan, evaluasi, perbandingan, simpan model
+│   ├── klasifikasi.py   # pelatihan, evaluasi, perbandingan, simpan model
 │   └── app.py                 # aplikasi UI Streamlit
 ├── Model/
 │   └── model_terbaik.joblib   # model SVM (ROS) + transformer
